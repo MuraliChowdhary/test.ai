@@ -8,7 +8,7 @@ const UserCard = ({ userDetails }) => {
     <Card className="shadow-lg w-full dark:border-0 dark:bg-zinc-900 text-center">
       <CardHeader>
         <CardTitle className="text-xl font-semibold text-gray-900 dark:text-white">
-          {isLoading ? "Loading Dashboard..." : `${userDetails.name}'s Dashboard`}
+          {isLoading ? "Loading ..." : `${userDetails.name}'s Dashboard`}
         </CardTitle>
       </CardHeader>
       <CardContent>
